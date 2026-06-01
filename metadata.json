@@ -1,0 +1,6 @@
+{
+  "name": "Amit Cooperative Thrift & Credit Society",
+  "description": "Track monthly savings contributions and loan repayments in the Amit Cooperative Thrift and credit society with historical logs, dynamic calculators, and repayment schedules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

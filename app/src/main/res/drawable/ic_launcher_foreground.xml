@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer beautiful glow ring -->
+    <path
+        android:fillColor="#1FFFFFFF"
+        android:pathData="M54,54m-38,0a38,38 0,1 1,76 0a38,38 0,1 1,-76 0" />
+
+    <!-- Main golden coin base -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M54,54m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0" />
+
+    <!-- Innery coin shadow border -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+
+    <!-- Growth sprout on the coin -->
+    <path
+        android:fillColor="#0F5A47"
+        android:pathData="M54,38C52,43 47,46 44,48C48,48 51,46 53,44L53,62L55,62L55,44C57,46 60,48 64,48C61,46 56,43 54,38Z" />
+
+    <!-- Leaf 2 (left side branch) -->
+    <path
+        android:fillColor="#0F5A47"
+        android:pathData="M53,52C50,52 46,54 44,57C48,56 51,54 53,52Z" />
+
+    <!-- Leaf 3 (right side branch) -->
+    <path
+        android:fillColor="#0F5A47"
+        android:pathData="M55,52C58,52 62,54 64,57C60,56 57,54 55,52Z" />
+</vector>
